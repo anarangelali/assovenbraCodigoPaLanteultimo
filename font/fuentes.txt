@@ -1,0 +1,20 @@
+html {
+font-size: 62.5%;
+box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+body {
+font-size: 16px;
+}
+
+font-family: "lilita one", "cardo"
+
+font-family: "Kalam", "stick no bills"
+
+fontfamily: "alegreya sans sc", cardo, kalam, "stick no bills"  

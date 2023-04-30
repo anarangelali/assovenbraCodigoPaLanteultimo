@@ -1,0 +1,296 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+    box-sizing: inherit;
+    }
+    
+    body {
+    font-size: 16px;
+    }
+
+/*************************INICIA HOJA DE ESTILOS**************************************/
+
+#primerTitulo{
+    font-size: 7rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    background: linear-gradient(rgba(247, 242, 203, 0.8), rgba(245, 160, 3, 0.8));
+   
+   
+    
+}
+
+h1{
+    color: #691702;
+    font-size: 5rem;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+/*color del nav*/
+.nav-bg{
+    background:#691702;
+}
+
+h2, h3, h4, p{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+
+/***************Configurando el Menú de Navegación***********/   
+
+
+
+.navegacion-principal{
+    text-transform: uppercase;
+    display: flex;
+    justify-content:space-evenly;
+}
+.navegacion-principal a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font: weight 200;
+    
+}
+
+
+
+
+
+
+/*******cambiando de color el contenido al pasar el mouse encima de él*******/
+.navegacion-principal a:hover{
+    color: brown;
+    transition: all 0.3s;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.menu li a:hover{
+    cursor: pointer;
+}
+.navegacion{
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+/*************ESTILO DEL BANNER***************/
+.hero{
+    background-image: url(../img/assovenbra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+/********************CONFIGURANDO TÍTULOS Y PÁRRAFOS**************************/
+
+.primerTitulo{
+    text-align: center;
+}
+.spanTitulo{
+    font-size: 2rem;
+}
+h2{
+    color: #691702;
+    font-size: 3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+
+}
+h3{
+    color: #691702;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.subtitulo{
+    color: #b14f37;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-size: 2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.portovelho{
+    height: 200px;
+    width: 500px;
+}
+.mision{
+font-size: 2rem;
+}
+
+
+/**********IMAGENES ESTILOS*****************/
+.bolsaDeFamilia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 330px
+}
+.policiaFederal{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 250px
+}
+
+.portoVheloclass{
+    display: flex;justify-content: center;
+
+}
+
+/*******************ESTILOS DE LA GALERÍA************************/
+
+.container{
+    display: flex;
+    max-width: 100vw;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: linear-gradient(rgba(243, 233, 220, 0.8), rgba(245, 160, 3, 0.8));
+}
+.container img{
+    width: 350px;
+    height: 220px;
+    object-fit:  cover;
+   
+    padding: 6px;
+}
+
+.container :hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transform: scale(1.05);
+    transform: rotate(-1.2deg) scale(1.05);
+    transition: 0.6 ease-in-out;
+    filter: grayscale(0.8);
+}
+
+
+
+
+/***************APLICANDO MARGENES AL CONTENIDO************/
+
+.marginPagina h2 h3 h4 p{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+
+
+
+
+
+/*************ESTILO DE FOOTER*************/
+
+
+
+.footer li{
+    list-style: none;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #ffffff;
+   
+   
+
+}
+.footer,
+.footer li{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.containerFooter{
+    margin: 0;
+    padding-block-start: 0;
+    text-decoration: none;
+
+    
+}
+.footerLink h4{
+    
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: bold;
+    border-bottom: 2px solid #7fbfdd;
+    padding-bottom: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+
+}
+.footer{
+    background-color: #691702;
+    padding: 80px 0;
+}
+
+.footerRow{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerLink ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #bbbbbb;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+
+}
+
+
+.footerLink ul li a:hover{
+    color: #00247D;
+    padding: 6px;
+}
+
+
+.socialLink a{
+
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 35px;
+    color: #ffffff;
+    transition: all .6s ease;
+}
+
+.socialLink a:hover{
+    background-color: #00247D;
+}
+.derechosReservados{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 20px
+}
