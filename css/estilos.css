@@ -96,7 +96,7 @@ body{
 /************AYUUDANDO A OCULTAR EL MENÚ****************/
 
 ul.show{
-    top: 65px;
+    top: 55px;
 
 }
 
@@ -207,7 +207,6 @@ h2, h3, h4, p{
     background-size: cover;
     height: 450px;
     padding: 20px;
-    position: relative;
     margin-bottom: 2rem;
     
 }
